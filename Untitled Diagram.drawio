@@ -296,7 +296,10 @@
         <mxCell id="SREfdtpxghVyCbGdrFrf-55" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;???&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="110" x="-410" y="880" as="geometry" />
         </mxCell>
-        <mxCell id="SREfdtpxghVyCbGdrFrf-56" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;font style=&quot;&quot;&gt;#&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ask-workload-scanner&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="SREfdtpxghVyCbGdrFrf-70" edge="1" parent="1" source="SREfdtpxghVyCbGdrFrf-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SREfdtpxghVyCbGdrFrf-69" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SREfdtpxghVyCbGdrFrf-56" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;&lt;div&gt;#ask-iac-security&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="110" x="-300" y="880" as="geometry" />
         </mxCell>
         <mxCell id="SREfdtpxghVyCbGdrFrf-57" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;#ask-sast&lt;/div&gt;" vertex="1">
@@ -310,6 +313,9 @@
         </mxCell>
         <mxCell id="SREfdtpxghVyCbGdrFrf-60" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ask-vulnerability-patch-&lt;/div&gt;&lt;div&gt;management&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="110" x="140" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="SREfdtpxghVyCbGdrFrf-69" parent="1" style="whiteSpace=wrap;html=1;" value="* When using IaC scan for secrets, remember it will only cover supported IaC files" vertex="1">
+          <mxGeometry height="70" width="125" x="-307.5" y="1030" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
