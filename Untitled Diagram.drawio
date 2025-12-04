@@ -46,6 +46,16 @@
         <mxCell id="UhSJV8XAtah4WkF84yMS-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-30;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Yes&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="520" y="349.78" as="geometry" />
         </mxCell>
+        <mxCell id="SREfdtpxghVyCbGdrFrf-71" edge="1" parent="1" source="UhSJV8XAtah4WkF84yMS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="SREfdtpxghVyCbGdrFrf-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="500" />
+              <mxPoint x="1040" y="1120" />
+              <mxPoint x="-577" y="1120" />
+              <mxPoint x="-577" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UhSJV8XAtah4WkF84yMS-15" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Check 400/500 error&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;Validate latest version&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;Provide execute command&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Post in #ask-CLI-CICD&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="200" x="710" y="440" as="geometry" />
         </mxCell>
@@ -197,7 +207,7 @@
         <mxCell id="SREfdtpxghVyCbGdrFrf-24" edge="1" parent="1" source="SREfdtpxghVyCbGdrFrf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="SREfdtpxghVyCbGdrFrf-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SREfdtpxghVyCbGdrFrf-27" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;rounded=0;" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Checklist for validating:&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Latest WizCli version&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;What CLI flags were used?&lt;br&gt;&lt;/span&gt;(e.g&amp;nbsp;--policy-hits-only,--senstive-data)&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Verify scanned files are invalid or malformed&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Verify scanned files not lacking&amp;nbsp;supported extension&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="SREfdtpxghVyCbGdrFrf-27" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;align=left;rounded=0;" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Checklist for validating:&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Latest WizCli version&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;What CLI flags were used?&lt;br&gt;&lt;/span&gt;(e.g&amp;nbsp;--policy-hits-only,--senstive-data)&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Verify scanned files are invalid or malformed&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Verify scanned files not lacking&amp;nbsp;supported extension&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ask for clients execute command&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="240" width="325" x="-740" y="380" as="geometry" />
         </mxCell>
         <mxCell id="SREfdtpxghVyCbGdrFrf-30" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="What Finding Type is showing inconsistency?" vertex="1">
@@ -316,6 +326,9 @@
         </mxCell>
         <mxCell id="SREfdtpxghVyCbGdrFrf-69" parent="1" style="whiteSpace=wrap;html=1;" value="* When using IaC scan for secrets, remember it will only cover supported IaC files" vertex="1">
           <mxGeometry height="70" width="125" x="-307.5" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="SREfdtpxghVyCbGdrFrf-72" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Checklist for validating&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="190" x="910" y="450" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
