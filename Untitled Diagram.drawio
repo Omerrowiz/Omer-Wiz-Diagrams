@@ -303,7 +303,7 @@
         <mxCell id="SREfdtpxghVyCbGdrFrf-54" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;#ask-host-configuration&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="110" x="-520" y="880" as="geometry" />
         </mxCell>
-        <mxCell id="SREfdtpxghVyCbGdrFrf-55" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;???&lt;/div&gt;" vertex="1">
+        <mxCell id="SREfdtpxghVyCbGdrFrf-55" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;#ask-host-&lt;/div&gt;&lt;div&gt;configuration&lt;/div&gt;" vertex="1">
           <mxGeometry height="100" width="110" x="-410" y="880" as="geometry" />
         </mxCell>
         <mxCell id="SREfdtpxghVyCbGdrFrf-70" edge="1" parent="1" source="SREfdtpxghVyCbGdrFrf-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="SREfdtpxghVyCbGdrFrf-69" value="">
